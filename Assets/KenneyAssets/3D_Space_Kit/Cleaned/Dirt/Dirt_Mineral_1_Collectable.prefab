@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3138640891058497592}
   - component: {fileID: 3498818841610357228}
   m_Layer: 0
-  m_Name: Dirt_Mineral_Collectable
+  m_Name: Dirt_Mineral_1_Collectable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
