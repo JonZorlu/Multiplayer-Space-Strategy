@@ -114,7 +114,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 030000000400000005000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 08000000090000000a000000060000000700000009000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 130000001400000015000000140000001600000015000000150000001600000017000000180000001700000016000000
-    m_SmoothingGroup: 2
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
     elementGroup: 4
     m_TextureGroup: -1
   - m_Indexes: 0f0000001000000011000000120000001100000010000000
-    m_SmoothingGroup: 2
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
     elementGroup: 4
     m_TextureGroup: -1
   - m_Indexes: 0b0000000c0000000d0000000e0000000d0000000c000000
-    m_SmoothingGroup: 2
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0

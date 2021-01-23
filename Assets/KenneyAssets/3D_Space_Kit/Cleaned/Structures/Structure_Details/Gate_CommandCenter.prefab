@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2110514857516234207}
   - component: {fileID: 7864096704293535149}
   m_Layer: 0
-  m_Name: Gate_Hangar
+  m_Name: Gate_CommandCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 0f0000001000000011000000
-    m_SmoothingGroup: 2
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 1b0000001c0000001d000000
-    m_SmoothingGroup: 3
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 3a0000003b0000003c0000003d0000003c0000003b000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 020000000300000004000000000000000400000001000000030000000100000004000000050000000200000004000000020000000500000006000000060000000500000007000000080000000900000005000000070000000500000009000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 3e0000003f0000004000000041000000400000003f000000420000004000000041000000430000004000000042000000440000004000000043000000450000004000000044000000430000004200000046000000470000004600000042000000
-    m_SmoothingGroup: 4
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 320000003300000034000000340000003300000035000000330000003600000035000000370000003500000036000000300000003100000034000000310000003200000034000000300000002e0000002f0000002f00000031000000300000002f0000002c0000002d0000002e0000002c0000002f0000002c0000002a0000002b0000002d0000002c0000002b0000002b0000002800000029000000280000002b0000002a000000
-    m_SmoothingGroup: 4
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 0b0000000c0000000d0000000e0000000c0000000b0000000a0000000d0000000c000000
-    m_SmoothingGroup: 2
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 1600000017000000180000001a0000001700000016000000190000001800000017000000
-    m_SmoothingGroup: 3
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 2200000023000000240000002400000023000000250000002500000023000000260000002700000026000000230000003800000039000000270000002600000027000000390000003900000020000000210000003800000020000000390000001e000000210000001f000000200000001f00000021000000
-    m_SmoothingGroup: 6
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0

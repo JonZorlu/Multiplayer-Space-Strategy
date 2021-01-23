@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 390000003a0000003b000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 000000000100000002000000030000000200000001000000
-    m_SmoothingGroup: 15
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 040000000500000006000000070000000600000005000000
-    m_SmoothingGroup: 16
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 08000000090000000a0000000b0000000a00000009000000
-    m_SmoothingGroup: 17
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 0c0000000d0000000e0000000f0000000e0000000d000000
-    m_SmoothingGroup: 18
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 100000001100000012000000130000001200000011000000
-    m_SmoothingGroup: 19
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 140000001500000016000000170000001600000015000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 18000000190000001a0000001b0000001a00000019000000
-    m_SmoothingGroup: 18
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 210000002200000023000000240000002300000022000000
-    m_SmoothingGroup: 17
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 250000002600000027000000280000002700000026000000
-    m_SmoothingGroup: 15
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -267,7 +267,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 290000002a0000002b0000002c0000002b0000002a000000
-    m_SmoothingGroup: 16
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -284,7 +284,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 2d0000002e0000002f000000300000002f0000002e000000
-    m_SmoothingGroup: 15
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 310000003200000033000000340000003300000032000000
-    m_SmoothingGroup: 19
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 350000003600000037000000380000003700000036000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 3c0000003d0000003e0000003f0000003e0000003d000000
-    m_SmoothingGroup: 18
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -352,7 +352,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 400000004100000042000000430000004200000041000000
-    m_SmoothingGroup: 19
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -369,7 +369,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 440000004500000046000000470000004600000045000000
-    m_SmoothingGroup: 17
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -386,7 +386,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 48000000490000004a0000004b0000004a00000049000000
-    m_SmoothingGroup: 16
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 7d0000007e0000007f000000800000007f0000007e000000
-    m_SmoothingGroup: 21
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -420,7 +420,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 810000008200000083000000840000008300000082000000
-    m_SmoothingGroup: 21
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 850000008600000087000000880000008700000086000000
-    m_SmoothingGroup: 21
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 890000008a0000008b0000008c0000008b0000008a000000
-    m_SmoothingGroup: 21
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -471,7 +471,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 8d0000008e0000008f000000900000008f0000008e000000
-    m_SmoothingGroup: 21
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -573,7 +573,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 4d0000004e0000004f000000500000004d0000004f000000510000004d000000500000004c0000004f0000004e000000
-    m_SmoothingGroup: 2
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -590,7 +590,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 95000000960000009700000098000000970000009600000096000000ec00000098000000ed00000098000000ec000000
-    m_SmoothingGroup: 9
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -607,7 +607,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 9200000093000000940000009100000094000000930000009400000091000000ef000000ee000000ef00000091000000
-    m_SmoothingGroup: 8
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -624,7 +624,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 9e0000009f000000a00000009d000000a00000009f0000009f000000f10000009d000000f00000009d000000f1000000
-    m_SmoothingGroup: 11
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -641,7 +641,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 990000009a0000009b0000009c0000009b0000009a0000009b0000009c000000f2000000f3000000f20000009c000000
-    m_SmoothingGroup: 10
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -658,7 +658,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: f4000000f5000000f6000000f7000000f6000000f5000000f6000000f7000000f8000000f9000000f8000000f7000000
-    m_SmoothingGroup: 13
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -675,7 +675,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: fa000000fb000000fc000000fd000000fc000000fb000000fb000000fe000000fd000000ff000000fd000000fe000000
-    m_SmoothingGroup: 13
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -692,7 +692,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 6e0000006f00000070000000700000005c0000005d0000005c000000700000006f0000005b0000005d0000005c000000
-    m_SmoothingGroup: 5
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -709,7 +709,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 640000006500000066000000660000005f000000600000005f00000066000000650000005e000000600000005f000000
-    m_SmoothingGroup: 6
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -726,7 +726,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 710000007200000073000000720000006200000063000000630000007300000072000000610000006300000062000000
-    m_SmoothingGroup: 7
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 740000007500000076000000750000005300000054000000540000007600000075000000520000005400000053000000
-    m_SmoothingGroup: 3
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -760,7 +760,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 670000006800000069000000690000005700000058000000570000006900000068000000550000005600000057000000580000005700000056000000
-    m_SmoothingGroup: 4
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 6a0000006b0000006c0000006d0000006c0000006b0000006a000000590000006b0000005a0000006b00000059000000
-    m_SmoothingGroup: 20
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: de000000df000000e0000000e1000000e0000000df000000e2000000e0000000e1000000e3000000e2000000e1000000e8000000e2000000e3000000eb000000e2000000e8000000e8000000e9000000ea000000eb000000e8000000ea000000e4000000e5000000e6000000e7000000e5000000e4000000e9000000e7000000e4000000ea000000e9000000e4000000de000000e6000000df000000e5000000df000000e6000000
-    m_SmoothingGroup: 43
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 7700000078000000790000007a0000007900000078000000780000007b0000007a0000007c0000007a0000007b000000
-    m_SmoothingGroup: 21
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -828,7 +828,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: d8000000d9000000da000000dd000000d8000000da000000d8000000db000000dc000000dd000000db000000d8000000db000000d6000000d7000000dc000000db000000d7000000d6000000d4000000d5000000d7000000d6000000d5000000d0000000d1000000d4000000d5000000d4000000d1000000d0000000d2000000d1000000d3000000d1000000d2000000da000000d3000000d2000000d9000000d3000000da000000
-    m_SmoothingGroup: 24
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -845,7 +845,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 1e0000001f00000020000000200000001f0000001d0000001c0000001d0000001f000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -862,7 +862,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: c8000000c9000000ca000000cb000000c9000000c8000000cc000000cb000000c8000000cd000000cc000000c8000000c3000000ca000000c4000000c9000000c4000000ca000000c3000000c4000000c2000000c5000000c2000000c4000000c6000000c2000000c5000000c7000000c6000000c5000000ce000000c6000000c7000000cf000000c6000000ce000000ce000000cc000000cd000000cf000000ce000000cd000000
-    m_SmoothingGroup: 23
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -879,7 +879,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: b3000000b4000000b5000000b6000000b5000000b4000000b1000000b3000000b2000000b5000000b2000000b3000000
-    m_SmoothingGroup: 22
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -896,7 +896,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: be000000bf000000c0000000c1000000be000000c0000000c0000000bc000000bd000000bf000000bc000000c0000000bb000000bd000000bc000000
-    m_SmoothingGroup: 14
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1605,16 +1605,16 @@ MonoBehaviour:
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
-  - {x: -0.5, y: 0.000000023588104, z: -0.8660254, w: -1}
+  - {x: -0.49999997, y: 0, z: -0.8660254, w: -1}
   - {x: -0.5, y: 0, z: -0.8660254, w: -1}
   - {x: 0.5, y: 0, z: -0.8660254, w: -1}
   - {x: 0.49999994, y: 0, z: -0.8660254, w: -1}
-  - {x: 0.5, y: -0.000000023588104, z: -0.8660254, w: -1}
+  - {x: 0.49999997, y: 0, z: -0.8660254, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 0.5, y: 0, z: 0.8660254, w: -1}
-  - {x: 0.5, y: 0.000000023588104, z: 0.8660254, w: -1}
+  - {x: 0.49999997, y: 0, z: 0.8660254, w: -1}
   - {x: 0.49999994, y: 0, z: 0.8660254, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
@@ -1635,32 +1635,32 @@ MonoBehaviour:
   - {x: -0.49999985, y: 0.000000023588106, z: 0.8660255, w: -1}
   - {x: -0.5, y: -0.000000047176226, z: 0.86602545, w: -1}
   - {x: -0.49999988, y: 0, z: 0.8660254, w: -1}
-  - {x: -0.8660253, y: 0, z: 0.5000001, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
-  - {x: -0.8660253, y: 0, z: 0.5000001, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
-  - {x: -0.8660253, y: 0, z: -0.5000001, w: -1}
-  - {x: -0.8660253, y: 0, z: -0.5000001, w: -1}
-  - {x: 0.86602545, y: 0, z: -0.49999994, w: -1}
-  - {x: 0.86602545, y: 0, z: -0.49999994, w: -1}
-  - {x: 0, y: 0, z: -1, w: -1}
-  - {x: 0, y: 0, z: -1, w: -1}
-  - {x: 0.86602545, y: 0, z: 0.49999994, w: -1}
-  - {x: 0.86602545, y: 0, z: 0.49999994, w: -1}
-  - {x: 0, y: 0, z: 1, w: -1}
-  - {x: 0, y: 0, z: 1, w: -1}
-  - {x: 0, y: 0, z: 1, w: -1}
-  - {x: 0, y: 0, z: 1, w: -1}
-  - {x: -0.86602545, y: 0, z: 0.49999994, w: -1}
-  - {x: -0.86602545, y: 0, z: 0.49999994, w: -1}
-  - {x: 0.8660253, y: 0, z: 0.5000001, w: -1}
-  - {x: 0.8660253, y: 0, z: -0.5000001, w: -1}
-  - {x: 0.8660253, y: 0, z: 0.5000001, w: -1}
-  - {x: 0.8660253, y: 0, z: -0.5000001, w: -1}
-  - {x: 0, y: 0, z: -1, w: -1}
-  - {x: 0, y: 0, z: -1, w: -1}
-  - {x: -0.86602545, y: 0, z: -0.49999994, w: -1}
-  - {x: -0.86602545, y: 0, z: -0.49999994, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: 0.5, y: 0, z: -0.86602545, w: -1}
+  - {x: 0.5, y: 0, z: -0.86602545, w: -1}
+  - {x: 0.5, y: 0, z: -0.86602545, w: -1}
+  - {x: 0.5, y: 0, z: -0.86602545, w: -1}
+  - {x: 0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: 0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: 0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: 0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: -0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: -0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: -0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: -0.5, y: 0, z: 0.86602545, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: -0.5, y: 0, z: -0.86602545, w: -1}
+  - {x: -0.5, y: 0, z: -0.86602545, w: -1}
+  - {x: -0.5, y: 0, z: -0.86602545, w: -1}
+  - {x: -0.5, y: 0, z: -0.86602545, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
@@ -1761,11 +1761,11 @@ MonoBehaviour:
   - {x: 0.49999994, y: 0, z: 0.8660255, w: -1}
   - {x: 0.49999988, y: -0.000000013297658, z: 0.8660255, w: -1}
   - {x: -0.5, y: -0.000000013297664, z: -0.8660254, w: -1}
-  - {x: -0.41567189, y: -0.2003236, z: -0.88717943, w: -1}
+  - {x: -0.5, y: -0.000000013297616, z: -0.8660254, w: -1}
   - {x: -0.5, y: -0.000000017730134, z: -0.8660254, w: -1}
-  - {x: -0.4156717, y: -0.20032369, z: -0.88717943, w: -1}
+  - {x: -0.49999997, y: -0.000000017730128, z: -0.86602545, w: -1}
   - {x: -0.49999994, y: 0, z: -0.8660255, w: -1}
-  - {x: -0.41567162, y: -0.2003237, z: -0.88717955, w: -1}
+  - {x: -0.49999988, y: -0.000000013297658, z: -0.8660255, w: -1}
   - {x: NaN, y: NaN, z: NaN, w: 1}
   - {x: NaN, y: NaN, z: NaN, w: 1}
   - {x: NaN, y: NaN, z: NaN, w: 1}

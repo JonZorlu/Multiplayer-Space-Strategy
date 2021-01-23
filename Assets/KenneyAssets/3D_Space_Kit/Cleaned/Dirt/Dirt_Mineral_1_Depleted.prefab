@@ -165,7 +165,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 440000004500000046000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 900000009100000092000000
-    m_SmoothingGroup: 4
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: a5000000a6000000a7000000
-    m_SmoothingGroup: 7
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: b6000000b7000000b8000000
-    m_SmoothingGroup: 10
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: c1000000c2000000c3000000
-    m_SmoothingGroup: 11
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: da000000db000000dc000000
-    m_SmoothingGroup: 13
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -488,7 +488,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 400000004100000042000000430000004200000041000000
-    m_SmoothingGroup: 1
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 930000009400000095000000960000009300000095000000
-    m_SmoothingGroup: 4
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: a8000000a9000000aa000000ab000000a8000000aa000000
-    m_SmoothingGroup: 7
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: b9000000ba000000bb000000bc000000ba000000b9000000
-    m_SmoothingGroup: 10
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: bd000000be000000bf000000c0000000bf000000be000000
-    m_SmoothingGroup: 11
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -845,7 +845,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: d6000000d7000000d8000000d7000000d9000000d8000000
-    m_SmoothingGroup: 13
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -896,7 +896,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 2601000027010000280100002901000028010000270100002a01000029010000270100002b010000290100002a010000
-    m_SmoothingGroup: 21
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -913,7 +913,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 990000009a0000009b00000097000000980000009a0000009b0000009a00000098000000
-    m_SmoothingGroup: 5
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -930,7 +930,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 9c0000009d0000009e0000009f0000009e0000009d000000a00000009e0000009f000000
-    m_SmoothingGroup: 6
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -947,7 +947,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 1a0100001b0100001c0100001d0100001c0100001b0100001e0100001d0100001b0100001f0100001d0100001e010000
-    m_SmoothingGroup: 19
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -964,7 +964,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: ae000000af000000b0000000ac000000ad000000af000000b0000000af000000ad000000
-    m_SmoothingGroup: 8
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -981,7 +981,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 140100001501000016010000170100001501000014010000180100001701000014010000190100001701000018010000130100001601000015010000
-    m_SmoothingGroup: 18
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -998,7 +998,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 6700000068000000690000006a00000069000000680000006b000000690000006a000000
-    m_SmoothingGroup: 2
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1015,7 +1015,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 210100002201000023010000240100002101000023010000200100002301000022010000250100002101000024010000
-    m_SmoothingGroup: 20
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: b3000000b4000000b5000000b1000000b2000000b4000000b5000000b4000000b2000000
-    m_SmoothingGroup: 9
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1049,7 +1049,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 820000008300000084000000850000008300000082000000800000008400000081000000830000008100000084000000850000008600000083000000830000008600000087000000860000008800000087000000880000008900000087000000890000008a000000870000008b000000870000008a000000
-    m_SmoothingGroup: 3
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1066,7 +1066,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: ef000000f0000000f1000000f2000000f1000000f0000000f3000000f2000000f0000000f3000000f0000000f4000000
-    m_SmoothingGroup: 23
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1083,7 +1083,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: ea000000eb000000ec000000ed000000ec000000eb000000ee000000ec000000ed000000
-    m_SmoothingGroup: 15
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1100,7 +1100,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: c8000000c9000000ca000000cb000000ca000000c9000000cc000000ca000000cb000000cd000000ca000000cc000000c8000000d4000000c9000000d4000000c8000000d5000000
-    m_SmoothingGroup: 22
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1117,7 +1117,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: 0f0100001001000011010000120100000f01000011010000100100000d0100000e01000011010000100100000e0100000c0100000e0100000d010000
-    m_SmoothingGroup: 17
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1134,7 +1134,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: cf000000d0000000d1000000d3000000d0000000cf000000d2000000cf000000d1000000ce000000d1000000d0000000
-    m_SmoothingGroup: 12
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1151,7 +1151,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: e1000000e2000000e3000000e4000000e3000000e2000000e5000000e3000000e4000000
-    m_SmoothingGroup: 14
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1168,7 +1168,7 @@ MonoBehaviour:
     elementGroup: -1
     m_TextureGroup: -1
   - m_Indexes: fa000000fb000000fc000000f8000000fc000000fb000000fb000000f9000000f8000000f8000000f5000000f6000000f6000000fc000000f8000000f7000000fc000000f6000000fd000000fc000000f7000000fe000000fd000000f7000000ff000000fd000000fe00000000010000fd000000ff00000001010000fd0000000001000002010000fd0000000101000003010000020100000101000004010000050100000101000006010000040100000101000005010000030100000101000007010000040100000601000008010000040100000701000006010000010100000901000006010000090100000a0100000b0100000901000001010000
-    m_SmoothingGroup: 16
+    m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
       m_FlipU: 0
@@ -1945,11 +1945,11 @@ MonoBehaviour:
   - {x: -0.5000006, y: 0, z: -0.8660251, w: -1}
   - {x: -0.5000006, y: 0.000000008923208, z: -0.8660251, w: -1}
   - {x: -0.49999616, y: 0.000016512984, z: -0.86602765, w: -1}
-  - {x: -0.49999714, y: 0.000016852067, z: -0.86602706, w: -1}
-  - {x: -0.4999929, y: 0.00003340081, z: -0.86602956, w: -1}
+  - {x: -0.49999616, y: 0.000016512984, z: -0.86602765, w: -1}
+  - {x: -0.49999171, y: 0.000033008186, z: -0.8660302, w: -1}
   - {x: -0.50000256, y: -0.000000008922875, z: -0.86602396, w: -1}
-  - {x: -0.50000155, y: -0.0000003479919, z: -0.8660245, w: -1}
-  - {x: -0.50000143, y: -0.0000003836838, z: -0.8660246, w: -1}
+  - {x: -0.50000256, y: -0.000000008922875, z: -0.86602396, w: -1}
+  - {x: -0.50000256, y: -0.000000008922875, z: -0.86602396, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   - {x: 0.49999997, y: -1.2429545e-15, z: 0.86602545, w: -1}
   - {x: -0.49999997, y: 0, z: -0.86602545, w: -1}
   - {x: -0.49999964, y: 0, z: -0.86602557, w: -1}
-  - {x: -0.49999973, y: 0, z: -0.8660255, w: -1}
+  - {x: -0.4999997, y: -1.0108401e-14, z: -0.8660255, w: -1}
   - {x: -0.49999964, y: 1.13718535e-14, z: -0.86602557, w: -1}
   - {x: -0.49999997, y: 0, z: -0.86602545, w: -1}
   - {x: 0.50000006, y: 0, z: -0.8660254, w: -1}
@@ -2062,25 +2062,25 @@ MonoBehaviour:
   - {x: 1, y: -0.000009725096, z: -0.00000720955, w: -1}
   - {x: 1, y: -0.000014587618, z: -0.00001081431, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
-  - {x: 1, y: 9.355683e-10, z: -0.0000000031993421, w: -1}
-  - {x: 1, y: 4.6778414e-10, z: -0.0000000015996711, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0.0000032720209, z: 0.00000095334843, w: -1}
-  - {x: 1, y: 0.000003271553, z: 0.0000009549482, w: -1}
-  - {x: 1, y: 0.000006543172, z: 0.0000019099155, w: -1}
+  - {x: 1, y: 0.0000032720209, z: 0.00000095334843, w: -1}
+  - {x: 1, y: 0.0000065441077, z: 0.0000019067162, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 0.4999999, y: 0, z: -0.86602545, w: -1}
-  - {x: 0.49999425, y: 0.0000019363865, z: -0.8660287, w: -1}
   - {x: 0.49999997, y: 0, z: -0.86602545, w: -1}
-  - {x: 0.49999425, y: 0.0000019542804, z: -0.8660287, w: -1}
+  - {x: 0.49999997, y: 0, z: -0.86602545, w: -1}
+  - {x: 0.50000006, y: 0, z: -0.8660254, w: -1}
   - {x: 0.49978468, y: -0.0008001784, z: -0.8661493, w: -1}
-  - {x: 0.49979046, y: -0.00080212444, z: -0.866146, w: -1}
-  - {x: 0.49979046, y: -0.00080212444, z: -0.866146, w: -1}
+  - {x: 0.49978468, y: -0.0008001784, z: -0.8661493, w: -1}
+  - {x: 0.49978468, y: -0.0008001784, z: -0.8661493, w: -1}
   - {x: 0.5000003, y: 0, z: -0.8660252, w: -1}
   - {x: 0.50000024, y: 0.0000000150295, z: -0.86602527, w: -1}
   - {x: 0.50000024, y: 0.0000000150295, z: -0.86602527, w: -1}
   - {x: 0.50000024, y: 0.000000015029467, z: -0.8660253, w: -1}
   - {x: -0.67105037, y: -0.2935066, z: 0.6808416, w: -1}
-  - {x: -0.584523, y: -0.15225661, z: 0.79696345, w: -1}
+  - {x: -0.584523, y: -0.1522566, z: 0.79696345, w: -1}
   - {x: -0.49999747, y: -0.0000022729234, z: 0.8660268, w: -1}
   - {x: -0.49999502, y: -0.000004595797, z: 0.8660283, w: -1}
   - {x: -0.49999505, y: -0.0000045958845, z: 0.86602825, w: -1}
@@ -2095,11 +2095,11 @@ MonoBehaviour:
   - {x: -0.7879872, y: 0.38032517, z: -0.4841787, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
-  - {x: -1, y: 0.00000008687805, z: 0.000000068243665, w: -1}
-  - {x: -1, y: 0.00000008687805, z: 0.00000006824366, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: -0.000019804113, z: 0.000025569458, w: -1}
-  - {x: -1, y: -0.000019890993, z: 0.000025501211, w: -1}
-  - {x: -1, y: -0.000019890993, z: 0.000025501211, w: -1}
+  - {x: -1, y: -0.000019804113, z: 0.000025569458, w: -1}
+  - {x: -1, y: -0.000019804113, z: 0.000025569458, w: -1}
   - {x: 0.50000054, y: 0, z: -0.86602515, w: -1}
   - {x: 0.5000002, y: 0, z: -0.8660253, w: -1}
   - {x: 0.5000002, y: 0, z: -0.8660253, w: -1}
