@@ -14,7 +14,7 @@ This sample game project consists of FREE Packages and Assets. You may use and e
 
 MIT License
 
-Copyright (c) 2021 HamCorGames - JonZorlu
+Copyright (c) 2021 Jon Zorlu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
