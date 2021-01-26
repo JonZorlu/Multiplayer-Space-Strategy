@@ -8,7 +8,7 @@ Cinemachine-2.6.3 | InputSystem-1.0.1 | ProBuilder-4.4.0 | MirrorNetworking-30.2
 
 ## Motivation
 
-This sample game project consists of FREE Packages and Assets. You may use and extend it in anyway you like. The main purpose of this repo, is to share what I know about making a server authoritative multiplayer 3D Unity game and to give back to community. 
+This sample game project consists of FREE Packages and Assets. You may use and extend it in anyway you like. The main purpose of this repo, is to share what I know about making a server authoritative multiplayer 3D Unity game and to give back to the community. 
 
 ## License
 
