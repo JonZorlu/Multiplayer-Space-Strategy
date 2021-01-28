@@ -39,10 +39,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6782413694772761253}
     m_Modifications:
-    - target: {fileID: 4787915506220915823, guid: 407007b195ac4bd41803e0c321fcee38, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8493169169224618954, guid: 407007b195ac4bd41803e0c321fcee38, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -95,10 +91,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9121509915865549175, guid: 407007b195ac4bd41803e0c321fcee38, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 407007b195ac4bd41803e0c321fcee38, type: 3}
 --- !u!4 &3153141024809742752 stripped
@@ -113,14 +105,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6782413694772761253}
     m_Modifications:
-    - target: {fileID: 996050844477906576, guid: e06d1f57d8665664cb39582fd8808fd2, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3546204064673565582, guid: e06d1f57d8665664cb39582fd8808fd2, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3546204064673565583, guid: e06d1f57d8665664cb39582fd8808fd2, type: 3}
       propertyPath: m_Name
       value: Dirt_Mineral_2_Collectable

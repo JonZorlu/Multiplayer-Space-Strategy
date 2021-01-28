@@ -375,7 +375,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (40)
@@ -753,7 +753,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (26)
@@ -827,7 +827,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1485,7 +1485,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (37)
@@ -2775,7 +2775,7 @@ PrefabInstance:
     - target: {fileID: 8996965352554423632, guid: 28a4eb9fb231417479b501c5e0c0ad80, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: c6a090dc11679e34c85cd10d096ac5ea, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a4eb9fb231417479b501c5e0c0ad80, type: 3}
 --- !u!4 &806725771558735227 stripped
@@ -2793,7 +2793,7 @@ PrefabInstance:
     - target: {fileID: 666075638675680749, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: c4c651cbd94eefe4fae6972f1ea5b37c, type: 2}
     - target: {fileID: 3376176941062084903, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3063,7 +3063,7 @@ PrefabInstance:
     - target: {fileID: 5258646024017738845, guid: 21b275d436db3384cb8e480456b96477, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9438a9d8ac9a77f42b71b4803a6e5e93, type: 2}
     - target: {fileID: 8367263195159046466, guid: 21b275d436db3384cb8e480456b96477, type: 3}
       propertyPath: m_Name
       value: Dirt_Mineral_1_Depleted
@@ -3217,7 +3217,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4787,7 +4787,7 @@ PrefabInstance:
     - target: {fileID: 8996965352554423632, guid: 28a4eb9fb231417479b501c5e0c0ad80, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: c6a090dc11679e34c85cd10d096ac5ea, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a4eb9fb231417479b501c5e0c0ad80, type: 3}
 --- !u!4 &806725771473540106 stripped
@@ -4857,7 +4857,7 @@ PrefabInstance:
     - target: {fileID: 919103058317310290, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 3cd19885df9e86c4aaf7e2760d4a8983, type: 2}
     - target: {fileID: 3469254290592574541, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Name
       value: Dirt_Tile (1)
@@ -4923,7 +4923,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -5277,7 +5277,7 @@ PrefabInstance:
     - target: {fileID: 666075638675680749, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: c4c651cbd94eefe4fae6972f1ea5b37c, type: 2}
     - target: {fileID: 3376176941062084903, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5547,7 +5547,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6205,7 +6205,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (36)
@@ -6279,7 +6279,7 @@ PrefabInstance:
     - target: {fileID: 4787915506220915823, guid: 407007b195ac4bd41803e0c321fcee38, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 587b9266bc8696f4390ffe0459a115d0, type: 2}
     - target: {fileID: 8493169169224618954, guid: 407007b195ac4bd41803e0c321fcee38, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -6361,7 +6361,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6767,7 +6767,7 @@ PrefabInstance:
     - target: {fileID: 919103058317310290, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 3cd19885df9e86c4aaf7e2760d4a8983, type: 2}
     - target: {fileID: 3469254290592574541, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Name
       value: Dirt_Tile
@@ -6833,7 +6833,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -7491,7 +7491,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (38)
@@ -7565,7 +7565,7 @@ PrefabInstance:
     - target: {fileID: 4976976110254729896, guid: d2a4e4e5aef7e5c418d6accaec985d18, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: df0c0bda3ce77934ba5f0582f9365eed, type: 2}
     - target: {fileID: 6417694954359141379, guid: d2a4e4e5aef7e5c418d6accaec985d18, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -9103,7 +9103,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (41)
@@ -9177,7 +9177,7 @@ PrefabInstance:
     - target: {fileID: 666075638675680749, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: c4c651cbd94eefe4fae6972f1ea5b37c, type: 2}
     - target: {fileID: 3376176941062084903, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9499,7 +9499,7 @@ PrefabInstance:
     - target: {fileID: 919103058317310290, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 3cd19885df9e86c4aaf7e2760d4a8983, type: 2}
     - target: {fileID: 3469254290592574541, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Name
       value: Dirt_Tile (2)
@@ -9869,7 +9869,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (39)
@@ -9943,7 +9943,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -10601,7 +10601,7 @@ PrefabInstance:
     - target: {fileID: 6444470836588299949, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: b946a12148803cf429cf11351a858c5c, type: 2}
     - target: {fileID: 7317037871327253426, guid: fb94252669e6bd14b82ab585cdf3f5ff, type: 3}
       propertyPath: m_Name
       value: Dirt_Side (42)
@@ -10675,7 +10675,7 @@ PrefabInstance:
     - target: {fileID: 5307558292004368337, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9166908b7ab840848a938613d8b8f22a, type: 2}
     - target: {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -11012,7 +11012,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7444715970962827004, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b6137a7e6ff7ea4468767abe588fd7cd, type: 3}
 --- !u!4 &1870940839875858304 stripped
 Transform:
@@ -11081,7 +11082,7 @@ PrefabInstance:
     - target: {fileID: 919103058317310290, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 3cd19885df9e86c4aaf7e2760d4a8983, type: 2}
     - target: {fileID: 3469254290592574541, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Name
       value: Dirt_Tile (3)
@@ -11199,7 +11200,7 @@ PrefabInstance:
     - target: {fileID: 919103058317310290, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 3cd19885df9e86c4aaf7e2760d4a8983, type: 2}
     - target: {fileID: 3469254290592574541, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Name
       value: Dirt_Tile (5)
@@ -11265,7 +11266,7 @@ PrefabInstance:
     - target: {fileID: 666075638675680749, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: c4c651cbd94eefe4fae6972f1ea5b37c, type: 2}
     - target: {fileID: 3376176941062084903, guid: 36408cf0ba98cd347b5f6f3c0007dd6d, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11587,7 +11588,7 @@ PrefabInstance:
     - target: {fileID: 919103058317310290, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 3cd19885df9e86c4aaf7e2760d4a8983, type: 2}
     - target: {fileID: 3469254290592574541, guid: 7cfcd3e0eb4f90a4b9bd06c4c9b4261a, type: 3}
       propertyPath: m_Name
       value: Dirt_Tile (4)
