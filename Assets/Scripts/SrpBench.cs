@@ -6,13 +6,14 @@ using UnityEngine.Rendering;
 
 namespace HamCorGames.Benchmark
 {
-    // Benchmarks SRP Batcher - F8 to Show/Hide Stats Window
-    // Enable/Disable SRP Batcher from the RenderPipelineAsset ScriptableObject
-    // Watch the "CPU Rendering Time" in ms, take note and compare with other settings
-    
     public class SrpBench : MonoBehaviour
     {
-        public bool isEnabled = true;
+        [Header("F8 to Show/Hide Stats Window")]
+        [Header("Enable/Disable SRP Batcher from the RenderPipelineAsset")]
+        [Header("Watch 'CPU Rendering Time', compare it with other settings")]
+        [Header("Turn VSync OFF from the Game Window Resolution Settings")]
+        [Header("Set the Resolution to a fixed value, like 1080p")]
+        public bool benchEnabled = true;
         private const float refreshRate = 1.0f;
         private int frameCount;
 		private float accDeltaTime;
@@ -102,7 +103,7 @@ namespace HamCorGames.Benchmark
         
         private void ToggleStats()
         {
-            isEnabled = !isEnabled;
+            benchEnabled = !benchEnabled;
             ResetStats();
         }
 
@@ -113,7 +114,7 @@ namespace HamCorGames.Benchmark
                 ToggleStats();
             }
 
-			if (isEnabled)
+			if (benchEnabled)
 			{
 				accDeltaTime += Time.unscaledDeltaTime;
 				frameCount++;
@@ -159,14 +160,14 @@ namespace HamCorGames.Benchmark
 
         private void OnGUI()
         {
-            if (isEnabled)
+            if (benchEnabled)
             {
                 GUI.color = new Color(1, 1, 1, 1);
 
                 float width = 1050;
                 float height = 380;
 
-                GUILayout.BeginArea(new Rect(32, 32, width, height), "SRP batcher ON", GUI.skin.window);
+                GUILayout.BeginArea(new Rect(32, 32, width, height), "SRP Benchmark", GUI.skin.window);
 
                 GUILayout.Label(statsLabel, guiStyle);
 
