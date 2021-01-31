@@ -8,12 +8,14 @@ namespace HamCorGames.Benchmark
 {
     public class SrpBench : MonoBehaviour
     {
+        [Header("                                      ")]
         [Header("F8 to Show/Hide Stats Window")]
         [Header("Enable/Disable SRP Batcher from the RenderPipelineAsset")]
         [Header("Watch 'CPU Rendering Time', compare it with other settings")]
         [Header("Turn VSync OFF from the Game Window Resolution Settings")]
         [Header("Set the Resolution to a fixed value, like 1080p")]
-        public bool benchEnabled = true;
+        
+        [SerializeField] private bool benchEnabled = true;
         private const float refreshRate = 1.0f;
         private int frameCount;
 		private float accDeltaTime;
@@ -43,7 +45,7 @@ namespace HamCorGames.Benchmark
 			kPrepareBatchRendererGroupNodes,
 		};
 		
-        RecorderEntry[] recordersList =
+        private RecorderEntry[] recordersList =
         {
 			// Warning: Keep that list in the exact same order than SRPBMarkers enum
             new RecorderEntry() { name="RenderLoop.Draw" },
@@ -154,7 +156,6 @@ namespace HamCorGames.Benchmark
 
 					RazCounters();
 				}
-
 			}
         }
 
