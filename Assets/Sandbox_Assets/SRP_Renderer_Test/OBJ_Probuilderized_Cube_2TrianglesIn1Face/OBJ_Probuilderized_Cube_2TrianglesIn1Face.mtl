@@ -1,5 +1,0 @@
-newmtl Mat_URP_Test_SimpleLit
-map_Kd -o 0 0 -s 1 1 RainbowColors.png
-Kd 1 1 1
-d 1
-
