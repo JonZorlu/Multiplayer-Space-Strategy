@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normalMat: {fileID: 2100000, guid: d506ef8062e35cf4896670a4f66dfc6e, type: 2}
+  damagedMat: {fileID: 2100000, guid: bdaa6bbf1783ac143948110e38c8e05b, type: 2}
   outlineMat: {fileID: 2100000, guid: c95a0587cb3796c48b8530aacd83450e, type: 2}
   player1Color: {r: 0.40000004, g: 0.12941177, b: 0.08627451, a: 1}
   player2Color: {r: 0.25882354, g: 0.3254902, b: 0.44705886, a: 1}
