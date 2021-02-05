@@ -6,15 +6,7 @@ namespace HamCorGames.Gameplay
 {
     public class Unit : MonoBehaviour
     {
-        [SerializeField] private Material normalMat;
-        [SerializeField] private Material damagedMat;
-        [SerializeField] private Material outlineMat;
-        [SerializeField] private Color player0Color;
-        [SerializeField] private Color player1Color;
-        [SerializeField] private Color player2Color;
-        [SerializeField] private Color player3Color;
-        [SerializeField] private GameObject[] unitPrefabs;
-
+        [SerializeField] private UnitSO unitSO;
         private BoxCollider boxCollider;
         private Renderer rend;
         private Material[] objSharedMats;
@@ -24,7 +16,7 @@ namespace HamCorGames.Gameplay
         public int UnitIndex
         {
             get => unitIndex;
-            set => unitIndex = Mathf.Clamp(value, 0, unitPrefabs.Length);
+            set => unitIndex = Mathf.Clamp(value, 0, unitSO.UnitPrefabs.Length);
         }
 
         private void Awake()
@@ -37,7 +29,11 @@ namespace HamCorGames.Gameplay
         {
             // we can set the unit index with its setter from PlayerNetworkBehaviour
             
-            Instantiate(unitPrefabs[unitIndex], this.transform);
+
+            unitIndex = 0; // !!!!
+
+
+            GameObject unitGo = Instantiate(unitSO.UnitPrefabs[unitIndex], this.transform); 
 
             rend = GetComponentInChildren<Renderer>();
 
@@ -51,48 +47,54 @@ namespace HamCorGames.Gameplay
                     boxCollider.center = new Vector3(0.0008863807f, 0.2524748f, -0.001553059f); 
                     boxCollider.size = new Vector3(0.5978431f, 0.4915521f, 0.7022448f);
 
-                    unitSpotLight.innerSpotAngle = 30f;
                     unitSpotLight.spotAngle = 40f;
+                    unitSpotLight.innerSpotAngle = 30f;
                     break;
 
                 case var index when (index >= 12 && index <= 15): // unit1
-                    // boxCollider.center = new Vector3(0.0008863807f, 0.2524748f, -0.001553059f); 
-                    // boxCollider.size = new Vector3(0.5978431f, 0.4915521f, 0.7022448f);
+                    unitGo.transform.localPosition = new Vector3(0f, 4f, 0f);
 
-                    // unitSpotLight.innerSpotAngle = 30f;
-                    // unitSpotLight.spotAngle = 40f;
+                    boxCollider.center = new Vector3(0.0008863211f, 4.321574f, 0.001817703f); 
+                    boxCollider.size = new Vector3(1.602302f, 0.6432323f, 1.672997f);
+
+                    unitSpotLight.spotAngle = 50f;
+                    unitSpotLight.innerSpotAngle = 40f;
                     break; 
 
                 case var index when (index >= 16 && index <= 19): // unit2
-                    // boxCollider.center = new Vector3(0.0008863807f, 0.2524748f, -0.001553059f); 
-                    // boxCollider.size = new Vector3(0.5978431f, 0.4915521f, 0.7022448f);
+                    unitGo.transform.localPosition = new Vector3(0f, 4f, 0f);
+                    boxCollider.center = new Vector3(0.002809644f, 4.44966f, 0.003503323f); 
+                    boxCollider.size = new Vector3(2.798561f, 0.8994007f, 2.222415f);
 
-                    // unitSpotLight.innerSpotAngle = 30f;
-                    // unitSpotLight.spotAngle = 40f;
+                    unitSpotLight.spotAngle = 60f;
+                    unitSpotLight.innerSpotAngle = 50f;
                     break;
 
                 case var index when (index >= 20 && index <= 23 ): // unit3
-                    // boxCollider.center = new Vector3(0.0008863807f, 0.2524748f, -0.001553059f); 
-                    // boxCollider.size = new Vector3(0.5978431f, 0.4915521f, 0.7022448f);
+                    unitGo.transform.localPosition = new Vector3(0f, 4f, 0f);
+                    boxCollider.center = new Vector3(-0.001036882f, 4.245796f, -0.002266407f); 
+                    boxCollider.size = new Vector3(2.160044f, 0.4916716f, 1.826226f);
 
-                    // unitSpotLight.innerSpotAngle = 30f;
-                    // unitSpotLight.spotAngle = 40f;
+                    unitSpotLight.spotAngle = 60f;
+                    unitSpotLight.innerSpotAngle = 50f;
                     break;
 
                 case var index when (index >= 24 && index <= 27 ): // unit4
-                    // boxCollider.center = new Vector3(0.0008863807f, 0.2524748f, -0.001553059f); 
-                    // boxCollider.size = new Vector3(0.5978431f, 0.4915521f, 0.7022448f);
+                    unitGo.transform.localPosition = new Vector3(0f, 4f, 0f);
+                    boxCollider.center = new Vector3(0.004679322f, 4.483024f, 0.003449917f); 
+                    boxCollider.size = new Vector3(2.091449f, 0.966115f, 2.94661f);
 
-                    // unitSpotLight.innerSpotAngle = 30f;
-                    // unitSpotLight.spotAngle = 40f;
+                    unitSpotLight.spotAngle = 70f;
+                    unitSpotLight.innerSpotAngle = 60f;
                     break;
 
                 case var index when (index >= 28 && index <= 31 ): // unit5
-                    // boxCollider.center = new Vector3(0.0008863807f, 0.2524748f, -0.001553059f); 
-                    // boxCollider.size = new Vector3(0.5978431f, 0.4915521f, 0.7022448f);
+                    unitGo.transform.localPosition = new Vector3(0f, 4f, 0f);
+                    boxCollider.center = new Vector3(0.00182128f, 4.67452f, 0.00344944f); 
+                    boxCollider.size = new Vector3(2.234355f, 1.3491f, 2.980907f);
 
-                    // unitSpotLight.innerSpotAngle = 30f;
-                    // unitSpotLight.spotAngle = 40f;
+                    unitSpotLight.spotAngle = 70f;
+                    unitSpotLight.innerSpotAngle = 60f;
                     break;
             }
             
@@ -109,16 +111,16 @@ namespace HamCorGames.Gameplay
 
         private void OnMouseEnter() 
         {
-            objSharedMats[0] = normalMat;
-            objSharedMats[1] = outlineMat;
+            objSharedMats[0] = unitSO.NormalMat;
+            objSharedMats[1] = unitSO.OutlineMat;
 
             rend.sharedMaterials = objSharedMats;
-            rend.sharedMaterials[1].SetColor("_Color", player0Color); // change p1 2 3 4 
+            rend.sharedMaterials[1].SetColor("_Color", unitSO.Player0Color); // change p1 2 3 4 
         }
 
         private void OnMouseExit() 
         {
-            objSharedMats[0] = normalMat;
+            objSharedMats[0] = unitSO.NormalMat;
             objSharedMats[1] = null;
 
             rend.sharedMaterials = objSharedMats;
@@ -128,9 +130,9 @@ namespace HamCorGames.Gameplay
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
-                objSharedMats[0] = damagedMat;
+                objSharedMats[0] = unitSO.DamagedMat;
 
-                if (objSharedMats[1] != outlineMat)
+                if (objSharedMats[1] != unitSO.OutlineMat)
                 {
                     objSharedMats[1] = null;
                 }
@@ -140,9 +142,9 @@ namespace HamCorGames.Gameplay
 
             if (Input.GetKeyDown(KeyCode.D))
             {
-                objSharedMats[0] = normalMat;
+                objSharedMats[0] = unitSO.NormalMat;
 
-                if (objSharedMats[1] != outlineMat)
+                if (objSharedMats[1] != unitSO.OutlineMat)
                 {
                     objSharedMats[1] = null;
                 }

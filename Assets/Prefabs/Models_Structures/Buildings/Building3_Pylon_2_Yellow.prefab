@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3400552226976296454}
   - component: {fileID: 1774114438188294563}
   - component: {fileID: 4574000151706342761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Building3_Pylon_2_Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,6 +61,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d506ef8062e35cf4896670a4f66dfc6e, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -212,6 +213,10 @@ PrefabInstance:
     - target: {fileID: 6733731464676264841, guid: 335d847ac6de08043a8ef0e8fdccc2d6, type: 3}
       propertyPath: m_Name
       value: Pylon_Attachment
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733731464676264841, guid: 335d847ac6de08043a8ef0e8fdccc2d6, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7032104937120669334, guid: 335d847ac6de08043a8ef0e8fdccc2d6, type: 3}
       propertyPath: m_Mesh

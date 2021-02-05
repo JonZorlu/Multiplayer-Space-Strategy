@@ -4,9 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - normalMat: {fileID: 2100000, guid: d506ef8062e35cf4896670a4f66dfc6e, type: 2}
-  - damagedMat: {fileID: 2100000, guid: bdaa6bbf1783ac143948110e38c8e05b, type: 2}
-  - outlineMat: {fileID: 2100000, guid: c95a0587cb3796c48b8530aacd83450e, type: 2}
+  - unitSO: {fileID: 11400000, guid: 5531279931f76784b9ca73f63e8eb895, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

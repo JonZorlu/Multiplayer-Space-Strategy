@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7392276139138981416}
   - component: {fileID: 7392276139138981431}
   - component: {fileID: 7392276139138981430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Building0_CommandCenter_1_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,6 +64,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d506ef8062e35cf4896670a4f66dfc6e, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -140,6 +141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dish_1_Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 5912712488901995563, guid: bbc40bbacd939d94f853926aef14186c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc40bbacd939d94f853926aef14186c, type: 3}
 --- !u!4 &5961314673839838734 stripped
@@ -157,6 +162,10 @@ PrefabInstance:
     - target: {fileID: 1572604069421907371, guid: 36ed2f6747663424b8486f036b9c6490, type: 3}
       propertyPath: m_Name
       value: Antenna_1_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1572604069421907371, guid: 36ed2f6747663424b8486f036b9c6490, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1572604069421907380, guid: 36ed2f6747663424b8486f036b9c6490, type: 3}
       propertyPath: m_RootOrder
@@ -267,6 +276,10 @@ PrefabInstance:
     - target: {fileID: 7864096704293535138, guid: bbaae856e8c2f5f44a88792099fdee42, type: 3}
       propertyPath: m_Name
       value: Gate_CommandCenter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7864096704293535138, guid: bbaae856e8c2f5f44a88792099fdee42, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7864096704293535149, guid: bbaae856e8c2f5f44a88792099fdee42, type: 3}
       propertyPath: m_Mesh
@@ -409,6 +422,10 @@ PrefabInstance:
     - target: {fileID: 7864096704293535138, guid: bbaae856e8c2f5f44a88792099fdee42, type: 3}
       propertyPath: m_Name
       value: Gate_CommandCenter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7864096704293535138, guid: bbaae856e8c2f5f44a88792099fdee42, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7864096704293535149, guid: bbaae856e8c2f5f44a88792099fdee42, type: 3}
       propertyPath: m_Mesh

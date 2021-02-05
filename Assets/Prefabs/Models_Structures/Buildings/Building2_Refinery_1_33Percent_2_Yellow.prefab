@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 441601907311402506}
   - component: {fileID: 441601907311402503}
   - component: {fileID: 441601907311402504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Building2_Refinery_1_33Percent_2_Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,6 +60,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d506ef8062e35cf4896670a4f66dfc6e, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

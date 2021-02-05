@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5589912961154239503}
   - component: {fileID: 8808064152372003754}
   - component: {fileID: 6762278965503375200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Building1_Hangar_0_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,6 +61,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d506ef8062e35cf4896670a4f66dfc6e, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,6 +97,10 @@ PrefabInstance:
     - target: {fileID: 3786805082666157952, guid: 0c71e1233ec058a4b8ad6c22128070eb, type: 3}
       propertyPath: m_Name
       value: Dish_0_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786805082666157952, guid: 0c71e1233ec058a4b8ad6c22128070eb, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3786805082666158079, guid: 0c71e1233ec058a4b8ad6c22128070eb, type: 3}
       propertyPath: m_Mesh
