@@ -89,3 +89,36 @@ MonoBehaviour:
   - {fileID: 1192738732984666449, guid: 55cf1ceb10704b14fb186d2d144b372e, type: 3}
   - {fileID: 2902643804507324995, guid: 7d4abbd3742411e4498b8c17732da8c1, type: 3}
   - {fileID: 5301355333992515873, guid: 2a02582ea88033d45bebd5987452d324, type: 3}
+  unit0BoxColliderCenter: {x: 0.0008863807, y: 0.2524748, z: -0.001553059}
+  unit0BoxColliderSize: {x: 0.5978431, y: 0.4915521, z: 0.7022448}
+  unit0SpotLightOuterAngle: 40
+  unit1BoxColliderCenter: {x: 0.0008863211, y: 4.321574, z: 0.001817703}
+  unit1BoxColliderSize: {x: 1.602302, y: 0.6432323, z: 1.672997}
+  unit1SpotLightOuterAngle: 50
+  unit2BoxColliderCenter: {x: 0.002809644, y: 4.44966, z: 0.003503323}
+  unit2BoxColliderSize: {x: 2.798561, y: 0.8994007, z: 2.222415}
+  unit2SpotLightOuterAngle: 60
+  unit3BoxColliderCenter: {x: -0.001036882, y: 4.245796, z: -0.002266407}
+  unit3BoxColliderSize: {x: 2.160044, y: 0.4916716, z: 1.826226}
+  unit3SpotLightOuterAngle: 60
+  unit4BoxColliderCenter: {x: 0.004679322, y: 4.483024, z: 0.003449917}
+  unit4BoxColliderSize: {x: 2.091449, y: 0.966115, z: 2.94661}
+  unit4SpotLightOuterAngle: 70
+  unit5BoxColliderCenter: {x: 0.00182128, y: 4.67452, z: 0.00344944}
+  unit5BoxColliderSize: {x: 2.234355, y: 1.3491, z: 2.980907}
+  unit5SpotLightOuterAngle: 70
+  building0BoxColliderCenter: {x: 0.0008864403, y: 0.6546624, z: 0.00185585}
+  building0BoxColliderSize: {x: 2.983703, y: 1.295927, z: 2.985853}
+  building0SpotLightOuterAngle: 80
+  building1BoxColliderCenter: {x: -0.01516378, y: 0.5663951, z: -0.0001058578}
+  building1BoxColliderSize: {x: 2.293972, y: 1.119393, z: 2.016874}
+  building1SpotLightOuterAngle: 70
+  building2BoxColliderCenter: {x: 0.0008860826, y: 0.4237281, z: 0.002895832}
+  building2BoxColliderSize: {x: 1.117439, y: 0.8340586, z: 0.9627981}
+  building2SpotLightOuterAngle: 50
+  building3BoxColliderCenter: {x: -0.0002839565, y: 0.4016272, z: 0.001251698}
+  building3BoxColliderSize: {x: 0.6760273, y: 0.8003228, z: 0.6755228}
+  building3SpotLightOuterAngle: 40
+  turretBoxColliderCenter: {x: -0.003050566, y: 0.3255454, z: 0.01093483}
+  turretBoxColliderSize: {x: 0.5985622, y: 0.6481593, z: 0.7170219}
+  turretSpotLightOuterAngle: 0
