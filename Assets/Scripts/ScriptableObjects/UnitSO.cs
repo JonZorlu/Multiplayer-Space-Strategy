@@ -21,45 +21,45 @@ namespace HamCorGames.Gameplay
         [SerializeField] private Color player1Color;
         [SerializeField] private Color player2Color;
         [SerializeField] private Color player3Color;
-        [SerializeField] private GameObject[] unitPrefabs;
-        [SerializeField] private GameObject[] structurePrefabs;
+        [SerializeField] private UnitCardSO[] unitCards;
 
-        // private UnitType unitType;
-        // private PlayerNo playerNo;
+        // [SerializeField] private GameObject[] unitPrefabs;
+        // [SerializeField] private GameObject[] structurePrefabs;
 
-        [SerializeField] private Vector3 unit0BoxColliderCenter;
-        [SerializeField] private Vector3 unit0BoxColliderSize;
-        [SerializeField] private float unit0SpotLightOuterAngle; 
-        [SerializeField] private Vector3 unit1BoxColliderCenter;
-        [SerializeField] private Vector3 unit1BoxColliderSize;
-        [SerializeField] private float unit1SpotLightOuterAngle; 
-        [SerializeField] private Vector3 unit2BoxColliderCenter;
-        [SerializeField] private Vector3 unit2BoxColliderSize;
-        [SerializeField] private float unit2SpotLightOuterAngle;
-        [SerializeField] private Vector3 unit3BoxColliderCenter;
-        [SerializeField] private Vector3 unit3BoxColliderSize;
-        [SerializeField] private float unit3SpotLightOuterAngle;
-        [SerializeField] private Vector3 unit4BoxColliderCenter;
-        [SerializeField] private Vector3 unit4BoxColliderSize;
-        [SerializeField] private float unit4SpotLightOuterAngle;
-        [SerializeField] private Vector3 unit5BoxColliderCenter;
-        [SerializeField] private Vector3 unit5BoxColliderSize;
-        [SerializeField] private float unit5SpotLightOuterAngle;
-        [SerializeField] private Vector3 building0BoxColliderCenter;
-        [SerializeField] private Vector3 building0BoxColliderSize;
-        [SerializeField] private float building0SpotLightOuterAngle;
-        [SerializeField] private Vector3 building1BoxColliderCenter;
-        [SerializeField] private Vector3 building1BoxColliderSize;
-        [SerializeField] private float building1SpotLightOuterAngle;
-        [SerializeField] private Vector3 building2BoxColliderCenter;
-        [SerializeField] private Vector3 building2BoxColliderSize;
-        [SerializeField] private float building2SpotLightOuterAngle;
-        [SerializeField] private Vector3 building3BoxColliderCenter;
-        [SerializeField] private Vector3 building3BoxColliderSize;
-        [SerializeField] private float building3SpotLightOuterAngle;
-        [SerializeField] private Vector3 turretBoxColliderCenter;
-        [SerializeField] private Vector3 turretBoxColliderSize;
-        [SerializeField] private float turretSpotLightOuterAngle;
+
+        // [SerializeField] private Vector3 unit0BoxColliderCenter;
+        // [SerializeField] private Vector3 unit0BoxColliderSize;
+        // [SerializeField] private float unit0SpotLightOuterAngle; 
+        // [SerializeField] private Vector3 unit1BoxColliderCenter;
+        // [SerializeField] private Vector3 unit1BoxColliderSize;
+        // [SerializeField] private float unit1SpotLightOuterAngle; 
+        // [SerializeField] private Vector3 unit2BoxColliderCenter;
+        // [SerializeField] private Vector3 unit2BoxColliderSize;
+        // [SerializeField] private float unit2SpotLightOuterAngle;
+        // [SerializeField] private Vector3 unit3BoxColliderCenter;
+        // [SerializeField] private Vector3 unit3BoxColliderSize;
+        // [SerializeField] private float unit3SpotLightOuterAngle;
+        // [SerializeField] private Vector3 unit4BoxColliderCenter;
+        // [SerializeField] private Vector3 unit4BoxColliderSize;
+        // [SerializeField] private float unit4SpotLightOuterAngle;
+        // [SerializeField] private Vector3 unit5BoxColliderCenter;
+        // [SerializeField] private Vector3 unit5BoxColliderSize;
+        // [SerializeField] private float unit5SpotLightOuterAngle;
+        // [SerializeField] private Vector3 building0BoxColliderCenter;
+        // [SerializeField] private Vector3 building0BoxColliderSize;
+        // [SerializeField] private float building0SpotLightOuterAngle;
+        // [SerializeField] private Vector3 building1BoxColliderCenter;
+        // [SerializeField] private Vector3 building1BoxColliderSize;
+        // [SerializeField] private float building1SpotLightOuterAngle;
+        // [SerializeField] private Vector3 building2BoxColliderCenter;
+        // [SerializeField] private Vector3 building2BoxColliderSize;
+        // [SerializeField] private float building2SpotLightOuterAngle;
+        // [SerializeField] private Vector3 building3BoxColliderCenter;
+        // [SerializeField] private Vector3 building3BoxColliderSize;
+        // [SerializeField] private float building3SpotLightOuterAngle;
+        // [SerializeField] private Vector3 turretBoxColliderCenter;
+        // [SerializeField] private Vector3 turretBoxColliderSize;
+        // [SerializeField] private float turretSpotLightOuterAngle;
 
         public Material NormalMat => normalMat;
         public Material DamagedMat => damagedMat;
@@ -68,21 +68,20 @@ namespace HamCorGames.Gameplay
         public Color Player1Color => player1Color;
         public Color Player2Color => player2Color;
         public Color Player3Color => player3Color;
-        public GameObject[] UnitPrefabs => unitPrefabs;
-        public GameObject[] StructurePrefabs => structurePrefabs;
-        
-        // make a set to defaults in the so with a right click, 
-        // tell that in the tooltips hover over values.
+        public UnitCardSO[] UnitCards => unitCards;
+        // public GameObject[] UnitPrefabs => unitPrefabs;
+        // public GameObject[] StructurePrefabs => structurePrefabs;
 
         public GameObject GetUnit(UnitType unitType, PlayerNo playerNo, 
                                   out Vector3 boxColliderCenter, out Vector3 boxColliderSize, 
-                                  out float spotLightOuterAngle, out float spotLightInnerAngle)
+                                  out float spotLightOuterAngle, out float spotLightInnerAngle, out float spawnHeight)
         {
             GameObject unitToReturn = null;
             boxColliderCenter = Vector3.zero;
             boxColliderSize = Vector3.zero;
-            spotLightOuterAngle = 0;
-            spotLightInnerAngle = 0; // innerAngle is always -10 from the outerAngle
+            spotLightOuterAngle = 0f;
+            spotLightInnerAngle = 0f; 
+            spawnHeight = 0f;
 
             switch (unitType)
             {
@@ -91,26 +90,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = unitPrefabs[0];
+                        unitToReturn = unitCards[6].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = unitPrefabs[1];
+                        unitToReturn = unitCards[6].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = unitPrefabs[2];
+                        unitToReturn = unitCards[6].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = unitPrefabs[3];
+                        unitToReturn = unitCards[6].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = unit0BoxColliderCenter;
-                    boxColliderSize = unit0BoxColliderSize;
-                    spotLightOuterAngle = unit0SpotLightOuterAngle;
-                    spotLightInnerAngle = unit0SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[6].BoxColliderCenter;
+                    boxColliderSize = unitCards[6].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[6].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[6].UnitInnerRange;
+                    spawnHeight = unitCards[6].ModelSpawnHeight;
 
                 break;
 
@@ -119,26 +119,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = unitPrefabs[12];
+                        unitToReturn = unitCards[7].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = unitPrefabs[13];
+                        unitToReturn = unitCards[7].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = unitPrefabs[14];
+                        unitToReturn = unitCards[7].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = unitPrefabs[15];
+                        unitToReturn = unitCards[7].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = unit1BoxColliderCenter;
-                    boxColliderSize = unit1BoxColliderSize;
-                    spotLightOuterAngle = unit1SpotLightOuterAngle;
-                    spotLightInnerAngle = unit1SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[7].BoxColliderCenter;
+                    boxColliderSize = unitCards[7].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[7].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[7].UnitInnerRange;
+                    spawnHeight = unitCards[7].ModelSpawnHeight;
 
                 break;
 
@@ -147,26 +148,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = unitPrefabs[16];
+                        unitToReturn = unitCards[8].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = unitPrefabs[17];
+                        unitToReturn = unitCards[8].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = unitPrefabs[18];
+                        unitToReturn = unitCards[8].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = unitPrefabs[19];
+                        unitToReturn = unitCards[8].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = unit2BoxColliderCenter;
-                    boxColliderSize = unit2BoxColliderSize;
-                    spotLightOuterAngle = unit2SpotLightOuterAngle;
-                    spotLightInnerAngle = unit2SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[8].BoxColliderCenter;
+                    boxColliderSize = unitCards[8].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[8].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[8].UnitInnerRange;
+                    spawnHeight = unitCards[8].ModelSpawnHeight;
 
                 break;
 
@@ -175,26 +177,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = unitPrefabs[20];
+                        unitToReturn = unitCards[9].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = unitPrefabs[21];
+                        unitToReturn = unitCards[9].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = unitPrefabs[22];
+                        unitToReturn = unitCards[9].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = unitPrefabs[23];
+                        unitToReturn = unitCards[9].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = unit3BoxColliderCenter;
-                    boxColliderSize = unit3BoxColliderSize;
-                    spotLightOuterAngle = unit3SpotLightOuterAngle;
-                    spotLightInnerAngle = unit3SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[9].BoxColliderCenter;
+                    boxColliderSize = unitCards[9].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[9].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[9].UnitInnerRange;
+                    spawnHeight = unitCards[9].ModelSpawnHeight;
 
                 break;
 
@@ -203,26 +206,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = unitPrefabs[24];
+                        unitToReturn = unitCards[10].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = unitPrefabs[25];
+                        unitToReturn = unitCards[10].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = unitPrefabs[26];
+                        unitToReturn = unitCards[10].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = unitPrefabs[27];
+                        unitToReturn = unitCards[10].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = unit4BoxColliderCenter;
-                    boxColliderSize = unit4BoxColliderSize;
-                    spotLightOuterAngle = unit4SpotLightOuterAngle;
-                    spotLightInnerAngle = unit4SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[10].BoxColliderCenter;
+                    boxColliderSize = unitCards[10].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[10].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[10].UnitInnerRange;
+                    spawnHeight = unitCards[10].ModelSpawnHeight;
 
                 break;
 
@@ -231,26 +235,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = unitPrefabs[28];
+                        unitToReturn = unitCards[11].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = unitPrefabs[29];
+                        unitToReturn = unitCards[11].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = unitPrefabs[30];
+                        unitToReturn = unitCards[11].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = unitPrefabs[31];
+                        unitToReturn = unitCards[11].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = unit5BoxColliderCenter;
-                    boxColliderSize = unit5BoxColliderSize;
-                    spotLightOuterAngle = unit5SpotLightOuterAngle;
-                    spotLightInnerAngle = unit5SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[11].BoxColliderCenter;
+                    boxColliderSize = unitCards[11].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[11].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[11].UnitInnerRange;
+                    spawnHeight = unitCards[11].ModelSpawnHeight;
 
                 break;
 
@@ -259,26 +264,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = structurePrefabs[0];
+                        unitToReturn = unitCards[0].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = structurePrefabs[1];
+                        unitToReturn = unitCards[0].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = structurePrefabs[2];
+                        unitToReturn = unitCards[0].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = structurePrefabs[3];
+                        unitToReturn = unitCards[0].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = building0BoxColliderCenter;
-                    boxColliderSize = building0BoxColliderSize;
-                    spotLightOuterAngle = building0SpotLightOuterAngle;
-                    spotLightInnerAngle = building0SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[0].BoxColliderCenter;
+                    boxColliderSize = unitCards[0].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[0].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[0].UnitInnerRange;
+                    spawnHeight = unitCards[0].ModelSpawnHeight;
 
                 break;
 
@@ -287,26 +293,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = structurePrefabs[4];
+                        unitToReturn = unitCards[1].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = structurePrefabs[5];
+                        unitToReturn = unitCards[1].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = structurePrefabs[6];
+                        unitToReturn = unitCards[1].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = structurePrefabs[7];
+                        unitToReturn = unitCards[1].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = building1BoxColliderCenter;
-                    boxColliderSize = building1BoxColliderSize;
-                    spotLightOuterAngle = building1SpotLightOuterAngle;
-                    spotLightInnerAngle = building1SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[1].BoxColliderCenter;
+                    boxColliderSize = unitCards[1].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[1].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[1].UnitInnerRange;
+                    spawnHeight = unitCards[1].ModelSpawnHeight;
 
                 break;
 
@@ -315,26 +322,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = structurePrefabs[8];
+                        unitToReturn = unitCards[2].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = structurePrefabs[9];
+                        unitToReturn = unitCards[2].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = structurePrefabs[10];
+                        unitToReturn = unitCards[2].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = structurePrefabs[11];
+                        unitToReturn = unitCards[2].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = building2BoxColliderCenter;
-                    boxColliderSize = building2BoxColliderSize;
-                    spotLightOuterAngle = building2SpotLightOuterAngle;
-                    spotLightInnerAngle = building2SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[2].BoxColliderCenter;
+                    boxColliderSize = unitCards[2].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[2].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[2].UnitInnerRange;
+                    spawnHeight = unitCards[2].ModelSpawnHeight;
 
                 break;
 
@@ -343,26 +351,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = structurePrefabs[24];
+                        unitToReturn = unitCards[3].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = structurePrefabs[25];
+                        unitToReturn = unitCards[3].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = structurePrefabs[26];
+                        unitToReturn = unitCards[3].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = structurePrefabs[27];
+                        unitToReturn = unitCards[3].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = building3BoxColliderCenter;
-                    boxColliderSize = building3BoxColliderSize;
-                    spotLightOuterAngle = building3SpotLightOuterAngle;
-                    spotLightInnerAngle = building3SpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[3].BoxColliderCenter;
+                    boxColliderSize = unitCards[3].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[3].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[3].UnitInnerRange;
+                    spawnHeight = unitCards[3].ModelSpawnHeight;
 
                 break;
 
@@ -371,26 +380,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = structurePrefabs[28];
+                        unitToReturn = unitCards[4].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = structurePrefabs[29];
+                        unitToReturn = unitCards[4].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = structurePrefabs[30];
+                        unitToReturn = unitCards[4].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = structurePrefabs[31];
+                        unitToReturn = unitCards[4].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = turretBoxColliderCenter;
-                    boxColliderSize = turretBoxColliderSize;
-                    spotLightOuterAngle = turretSpotLightOuterAngle;
-                    spotLightInnerAngle = turretSpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[4].BoxColliderCenter;
+                    boxColliderSize = unitCards[4].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[4].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[4].UnitInnerRange;
+                    spawnHeight = unitCards[4].ModelSpawnHeight;
 
                 break;
                 
@@ -399,26 +409,27 @@ namespace HamCorGames.Gameplay
                     switch (playerNo)
                     {
                         case PlayerNo.player0_red:
-                        unitToReturn = structurePrefabs[32];
+                        unitToReturn = unitCards[5].UnitPrefabs[0];
                         break;
 
                         case PlayerNo.player1_blue:
-                        unitToReturn = structurePrefabs[33];
+                        unitToReturn = unitCards[5].UnitPrefabs[1];
                         break;
 
                         case PlayerNo.player2_yellow:
-                        unitToReturn = structurePrefabs[34];
+                        unitToReturn = unitCards[5].UnitPrefabs[2];
                         break;
 
                         case PlayerNo.player3_purple:
-                        unitToReturn = structurePrefabs[35];
+                        unitToReturn = unitCards[5].UnitPrefabs[3];
                         break;
                     }
 
-                    boxColliderCenter = turretBoxColliderCenter;
-                    boxColliderSize = turretBoxColliderSize;
-                    spotLightOuterAngle = turretSpotLightOuterAngle;
-                    spotLightInnerAngle = turretSpotLightOuterAngle - 10f;
+                    boxColliderCenter = unitCards[5].BoxColliderCenter;
+                    boxColliderSize = unitCards[5].BoxColliderSize;
+                    spotLightOuterAngle = unitCards[5].UnitOuterRange;
+                    spotLightInnerAngle = unitCards[5].UnitInnerRange;
+                    spawnHeight = unitCards[5].ModelSpawnHeight;
 
                 break;
             }

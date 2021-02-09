@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c74f977e7f1604995fa8486370825b, type: 3}
+  m_Name: Unit3_RepairBot
+  m_EditorClassIdentifier: 
+  unitType: 3
+  unitModelPrefabs:
+  - {fileID: 2799857461689913720, guid: 8285d9a7b81f7414f978c64cfd066aba, type: 3}
+  - {fileID: 1325051881600624569, guid: cd694d18ba9367242a766a8de162c630, type: 3}
+  - {fileID: 5028135716765602229, guid: d817653151acbf44d8c167ac45198135, type: 3}
+  - {fileID: 1408785421187891870, guid: 7ae352d9bdac5e94ea5f865f9a9ae48f, type: 3}
+  boxColliderCenter: {x: -0.001036882, y: 4.245796, z: -0.002266407}
+  boxColliderSize: {x: 2.160044, y: 0.4916716, z: 1.826226}
+  outerRange: 60
+  innerRange: 50
+  modelSpawnHeight: 4

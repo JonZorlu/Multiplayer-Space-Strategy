@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c74f977e7f1604995fa8486370825b, type: 3}
+  m_Name: Unit0_Bot
+  m_EditorClassIdentifier: 
+  unitType: 0
+  unitModelPrefabs:
+  - {fileID: 5746961382106164293, guid: b6ca1f4eefb47d94b9e51f05d2a36d10, type: 3}
+  - {fileID: 2746051442951553425, guid: b50532cc9a0017446b977f716c5379e3, type: 3}
+  - {fileID: 2833441451002206501, guid: e3f0edf8c3a93cf479d475fd15a853e8, type: 3}
+  - {fileID: 3255132269710370249, guid: 6c95640be1c65984590189e76c4349ef, type: 3}
+  - {fileID: 7703479793028612665, guid: 63b8e22fff0cc6c4a841d138b3211001, type: 3}
+  - {fileID: 504122312665985634, guid: 2340b2d4d5aabea42a9503610aa8ecd4, type: 3}
+  - {fileID: 6278290287666267851, guid: 52b51a36c46c19c43a4c5f9de4e91cbf, type: 3}
+  - {fileID: 5660048471296548722, guid: 8aba0a6203349ec4984fb6d82e05325d, type: 3}
+  - {fileID: 6819495090203252588, guid: 49f11cbddc6ab284fa9ad89352e05e41, type: 3}
+  - {fileID: 3610670292833981319, guid: f58e5097cb9c9d843ba739371cde64ae, type: 3}
+  - {fileID: 3355326352639418466, guid: fd17542a544fb064e8b7af4f88900f3e, type: 3}
+  - {fileID: 6959200813207481506, guid: 1892736c8fa70f440b0177306c480ae4, type: 3}
+  boxColliderCenter: {x: 0.0008863807, y: 0.2524748, z: -0.001553059}
+  boxColliderSize: {x: 0.5978431, y: 0.4915521, z: 0.7022448}
+  outerRange: 40
+  innerRange: 30
+  modelSpawnHeight: 4
