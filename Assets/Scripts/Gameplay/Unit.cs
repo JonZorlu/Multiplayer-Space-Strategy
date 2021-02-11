@@ -6,6 +6,7 @@ namespace HamCorGames.Gameplay
 {
     public class Unit : MonoBehaviour
     {
+        [Header("Right Click Unit Script Header to Spawn & Despawn Model")]
         [SerializeField] private UnitType unitType;
         [SerializeField] private PlayerNo playerNo;
         [SerializeField] private UnitSO unitSO;
@@ -13,6 +14,12 @@ namespace HamCorGames.Gameplay
         private Renderer rend;
         private Material[] objSharedMats;
         private Light unitSpotLight;
+
+        private void OnValidate()
+        {
+            boxCollider = GetComponent<BoxCollider>();
+            unitSpotLight = GetComponentInChildren<Light>(true);
+        }
 
         private void Awake()
         {
@@ -22,15 +29,18 @@ namespace HamCorGames.Gameplay
 
         private void Start()
         {
+            SpawnUnitModel();
+        }
 
+        [ContextMenu("Spawn Unit Model")]
+        private void SpawnUnitModel()
+        {
             GameObject unitToSpawn = unitSO.GetUnit(unitType, playerNo, 
                            out var boxColliderCenter, out var boxColliderSize,
                            out var unitSpotLightSpotAngle, out var unitSpotLightInnerSpotAngle, out var unitModelSpawnHeight);
 
             GameObject unitGo = Instantiate(unitToSpawn, this.transform); 
             unitGo.transform.localPosition = new Vector3(0f, unitModelSpawnHeight, 0f);
-
-            
 
             rend = GetComponentInChildren<Renderer>();
             objSharedMats = rend.sharedMaterials;
@@ -41,13 +51,20 @@ namespace HamCorGames.Gameplay
 
             unitSpotLight.spotAngle = unitSpotLightSpotAngle;
             unitSpotLight.innerSpotAngle = unitSpotLightInnerSpotAngle;
+        }
 
+        [ContextMenu("Despawn Unit Model")]
+        private void DespawnUnitMoidel()
+        {
+            if (GetComponentInChildren<Renderer>(true) != null)
+                DestroyImmediate(GetComponentInChildren<Renderer>(true).gameObject);
         }
 
 
 
-        // Listen to an event and activate/diactivate the outline effect
 
+        // Listen to an event and activate/diactivate the outline effect
+        // Below is for testing purposes, wip
 
 
         private void OnMouseEnter() 
@@ -69,7 +86,7 @@ namespace HamCorGames.Gameplay
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.G))
             {
                 objSharedMats[0] = unitSO.DamagedMat;
 
@@ -81,7 +98,7 @@ namespace HamCorGames.Gameplay
                 rend.sharedMaterials = objSharedMats;
             }
 
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.H))
             {
                 objSharedMats[0] = unitSO.NormalMat;
 
